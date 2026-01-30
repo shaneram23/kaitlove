@@ -13,13 +13,14 @@
 #code .string{color:#228B22}
 #code .keyword{color:#228B22;font-weight:bold}
 #code .placeholder{margin-left:15px}#code .space{margin-left:7px}
-#code .comments{color:#A4E59D}
+#code .comments{color:#3EB489}
 #copyright{margin-top:10px;text-align:center;width:100%;color:#666}
 #errorMsg{width:100%;text-align:center;font-size:24px;position:absolute;top:100px;left:0}
 #copyright a{color:#666}
 #icon{font-size: 48px;color: red;margin: 50 px; align-content: center;}
 
 #heartspan{align-content: center;text-align: center;margin: 20px;}
+
 
 
 
