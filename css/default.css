@@ -10,7 +10,7 @@
 #loveu .signature{margin-top:10px;font-size:20px;font-style:italic}
 #clickSound{display:none}
 #code{float:left;width:440px;height:400px;color:#ff0000;font-family:"digit";font-size:12px}
-#code .string{color:#ff0000}
+#code .string{color:#355231}
 #code .keyword{color:#ff0000;font-weight:bold}
 #code .placeholder{margin-left:15px}#code .space{margin-left:7px}
 #code .comments{color:#ff0000}
@@ -20,6 +20,7 @@
 #icon{font-size: 48px;color: red;margin: 50 px; align-content: center;}
 
 #heartspan{align-content: center;text-align: center;margin: 20px;}
+
 
 
 
