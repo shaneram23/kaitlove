@@ -21,6 +21,11 @@
 
 #heartspan{align-content: center;text-align: center;margin: 20px;}
 
+/* Hide the audio element */
+audio {
+  display: none;
+}
+
 
 
 
