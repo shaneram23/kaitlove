@@ -140,8 +140,13 @@ document.addEventListener(
   "click",
   () => {
     const audio = document.getElementById("bgm");
-    audio.volume = 0.5; // adjust volume (0.0 - 1.0)
+    const hint = document.getElementById("music-hint");
+
+    audio.volume = 0.5;
     audio.play();
+
+    // Hide the text after click
+    hint.style.display = "none";
   },
-  { once: true } // ensures it only runs once
+  { once: true }
 );
