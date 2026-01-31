@@ -133,4 +133,15 @@ function adjustCodePosition() {
 
 function showLoveU() {
 	$('#loveu').fadeIn(3000);
+
 }
+
+document.addEventListener(
+  "click",
+  () => {
+    const audio = document.getElementById("bgm");
+    audio.volume = 0.5; // adjust volume (0.0 - 1.0)
+    audio.play();
+  },
+  { once: true } // ensures it only runs once
+);
